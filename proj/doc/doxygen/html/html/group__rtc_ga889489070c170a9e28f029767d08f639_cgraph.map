@@ -1,0 +1,8 @@
+<map id="char_date" name="char_date">
+<area shape="rect" id="node1" title="Reads and Prints the data." alt="" coords="5,56,84,83"/>
+<area shape="rect" id="node2" href="$group__rtc.html#ga73c8e83224567054b7fe8e811bc4cb98" title="Return the real day." alt="" coords="139,5,205,32"/>
+<area shape="rect" id="node5" href="$group__rtc.html#gacb5a6bedef3fca601e2ddf3126970ec5" title="Return the real month." alt="" coords="132,56,212,83"/>
+<area shape="rect" id="node6" href="$group__rtc.html#gab16c8f58d241af272b53da5655e2fc10" title="Return the real year." alt="" coords="137,107,207,133"/>
+<area shape="rect" id="node3" href="$group__rtc.html#gaafd02c848ac1cc933e1106b5487fc02e" title=" " alt="" coords="260,56,355,83"/>
+<area shape="rect" id="node4" href="$group__utils.html#ga79a031a8611f5b2d6afa4158e92b0fb4" title="Help with the command sys_inb." alt="" coords="403,56,493,83"/>
+</map>

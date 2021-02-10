@@ -1,0 +1,17 @@
+var searchData=
+[
+  ['d_34',['D',['../i8042_8h.html#af316c33cc298530f245e8b55330e86b5',1,'i8042.h']]],
+  ['date_35',['date',['../struct_user.html#a248959ba5e8dc29d04cd62b56b0443d4',1,'User']]],
+  ['delay_5fus_36',['DELAY_US',['../i8042_8h.html#a1a522aa19bcb695a9df30032a893bee3',1,'i8042.h']]],
+  ['delta_5fbird_37',['delta_bird',['../rtc_8c.html#ad898fef867cd5d7619340a985465e219',1,'delta_bird():&#160;rtc.c'],['../sprite_8c.html#ad898fef867cd5d7619340a985465e219',1,'delta_bird():&#160;sprite.c']]],
+  ['delta_5fcactus_38',['delta_cactus',['../rtc_8c.html#a19195a0c979f64f764bc9e810d2fc175',1,'delta_cactus():&#160;rtc.c'],['../sprite_8c.html#a19195a0c979f64f764bc9e810d2fc175',1,'delta_cactus():&#160;sprite.c']]],
+  ['delta_5fx_39',['delta_x',['../group__mouse.html#gafe2cd6e769c55f9e7a41b24d3a0b84cb',1,'delta_x():&#160;mouse.c'],['../group__mouse.html#gafe2cd6e769c55f9e7a41b24d3a0b84cb',1,'delta_x():&#160;mouse.c']]],
+  ['delta_5fx_5fmeteor_40',['delta_x_meteor',['../rtc_8c.html#acaaf6e0f096bec278659c1d00f1d8a52',1,'delta_x_meteor():&#160;rtc.c'],['../sprite_8c.html#acaaf6e0f096bec278659c1d00f1d8a52',1,'delta_x_meteor():&#160;rtc.c']]],
+  ['delta_5fy_41',['delta_y',['../group__mouse.html#ga9226d8c611d2b6102df05ad7e10dba6e',1,'delta_y():&#160;mouse.c'],['../group__mouse.html#ga9226d8c611d2b6102df05ad7e10dba6e',1,'delta_y():&#160;mouse.c']]],
+  ['delta_5fy_5fmeteor_42',['delta_y_meteor',['../rtc_8c.html#abebd7fc80ca6069cb853a54402f1ec24',1,'delta_y_meteor():&#160;rtc.c'],['../sprite_8c.html#abebd7fc80ca6069cb853a54402f1ec24',1,'delta_y_meteor():&#160;sprite.c']]],
+  ['destroy_5fall_43',['destroy_all',['../group__sprite.html#gaf864162fe5565e8fc290ce70f6b3a843',1,'destroy_all(Sprite *cactus, Sprite *meteor, Sprite *cursor, Sprite *game_over, Sprite *dino_normal, Sprite *right_down, Sprite *left_down, Sprite *right, Sprite *left, Sprite *zero, Sprite *one, Sprite *two, Sprite *three, Sprite *four, Sprite *five, Sprite *six, Sprite *seven, Sprite *eight, Sprite *nine):&#160;sprite.c'],['../group__sprite.html#gaf864162fe5565e8fc290ce70f6b3a843',1,'destroy_all(Sprite *cactus, Sprite *meteor, Sprite *cursor, Sprite *game_over, Sprite *dino_normal, Sprite *right_down, Sprite *left_down, Sprite *right, Sprite *left, Sprite *zero, Sprite *one, Sprite *two, Sprite *three, Sprite *four, Sprite *five, Sprite *six, Sprite *seven, Sprite *eight, Sprite *nine):&#160;sprite.c']]],
+  ['destroy_5fsprite_44',['destroy_sprite',['../group__sprite.html#gaf16c6befaac9ffb673b9e3c798d542ed',1,'destroy_sprite(Sprite *sp):&#160;sprite.c'],['../group__sprite.html#gaf16c6befaac9ffb673b9e3c798d542ed',1,'destroy_sprite(Sprite *sp):&#160;sprite.c']]],
+  ['destroy_5fuser_45',['destroy_user',['../group__user.html#ga75baa9078c56c29eb63839628ed46e59',1,'destroy_user(User *u):&#160;user.c'],['../group__user.html#ga75baa9078c56c29eb63839628ed46e59',1,'destroy_user(User *u):&#160;user.c']]],
+  ['down_46',['down',['../group__sprite.html#ga47b5159fca5e0aceb84e3a6b5b5120b0',1,'down(Sprite *dino_normal, Sprite *game_over, Sprite *right_down, Sprite *left_down):&#160;sprite.c'],['../group__sprite.html#ga47b5159fca5e0aceb84e3a6b5b5120b0',1,'down(Sprite *dino_normal, Sprite *game_over, Sprite *right_down, Sprite *left_down):&#160;sprite.c']]],
+  ['draw_5ftemp_5fvideo_5fmem_47',['draw_temp_video_mem',['../group__graphics.html#gaa7fcb34c7964ddc4c6a2183a076c7bd2',1,'draw_temp_video_mem():&#160;graphic.c'],['../group__graphics.html#gaa7fcb34c7964ddc4c6a2183a076c7bd2',1,'draw_temp_video_mem():&#160;graphic.c']]]
+];

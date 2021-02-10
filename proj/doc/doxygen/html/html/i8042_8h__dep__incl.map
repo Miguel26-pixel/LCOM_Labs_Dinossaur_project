@@ -1,0 +1,14 @@
+<map id="D:/Meu Projetos/LCOM/shared/g05/proj/i8042.h" name="D:/Meu Projetos/LCOM/shared/g05/proj/i8042.h">
+<area shape="rect" id="node1" title=" " alt="" coords="505,5,667,47"/>
+<area shape="rect" id="node2" href="$graphic_8c.html" title=" " alt="" coords="5,95,177,136"/>
+<area shape="rect" id="node3" href="$keyboard_8c.html" title=" " alt="" coords="201,95,384,136"/>
+<area shape="rect" id="node4" href="$mouse_8c.html" title=" " alt="" coords="408,95,577,136"/>
+<area shape="rect" id="node5" href="$rtc_8h.html" title=" " alt="" coords="602,95,759,136"/>
+<area shape="rect" id="node7" href="$sprite_8h.html" title=" " alt="" coords="715,184,878,225"/>
+<area shape="rect" id="node12" href="$timer_8c.html" title=" " alt="" coords="835,95,993,136"/>
+<area shape="rect" id="node6" href="$rtc_8c.html" title=" " alt="" coords="534,184,691,225"/>
+<area shape="rect" id="node8" href="$proj_8c.html" title=" " alt="" coords="661,385,818,426"/>
+<area shape="rect" id="node9" href="$sprite_8c.html" title=" " alt="" coords="715,281,878,322"/>
+<area shape="rect" id="node10" href="$while__game_8h.html" title=" " alt="" coords="902,273,1059,329"/>
+<area shape="rect" id="node11" href="$while__game_8c.html" title=" " alt="" coords="902,377,1059,433"/>
+</map>

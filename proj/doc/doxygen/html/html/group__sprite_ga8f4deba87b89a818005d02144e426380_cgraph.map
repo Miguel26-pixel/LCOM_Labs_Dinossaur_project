@@ -1,0 +1,9 @@
+<map id="nickname" name="nickname">
+<area shape="rect" id="node1" title="Draw the nickname of highscore." alt="" coords="5,49,84,76"/>
+<area shape="rect" id="node2" href="$group__graphics.html#ga7ae3806d91a84843a13fb95bae434127" title="Return horizontal resolution." alt="" coords="504,5,563,32"/>
+<area shape="rect" id="node3" href="$group__graphics.html#gad8800b9abb9ee98e714b2f39ad8209ac" title="Bios Call function that changes buffer to double buffer." alt="" coords="156,49,253,76"/>
+<area shape="rect" id="node4" href="$group__sprite.html#ga77083ce7f9b4c07070ba9701e8219e1f" title="Write text on screen." alt="" coords="132,100,277,127"/>
+<area shape="rect" id="node5" href="$group__graphics.html#ga936533e02b44af096cc6ba78b877956b" title="Draw a pixmap without the the background." alt="" coords="325,75,456,101"/>
+<area shape="rect" id="node6" href="$group__graphics.html#ga66b01bc7abf44a774b3aefb4e8ade906" title="Return vertical resolution." alt="" coords="504,68,563,95"/>
+<area shape="rect" id="node7" href="$group__utils.html#gaebfa23dbf6ec30f35f2986a654bd47c1" title="Return minimum between 2 values." alt="" coords="512,119,555,145"/>
+</map>

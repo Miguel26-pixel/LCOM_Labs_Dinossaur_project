@@ -1,0 +1,5 @@
+<map id="kbc_ih" name="kbc_ih">
+<area shape="rect" id="node1" title="Keyboard interrupt handler." alt="" coords="5,31,65,57"/>
+<area shape="rect" id="node2" href="$group__keyboard.html#gae7a5d7c8b2f1eea6cd3024206f39f9ce" title="Read the keyboard data." alt="" coords="113,5,220,32"/>
+<area shape="rect" id="node3" href="$group__utils.html#ga79a031a8611f5b2d6afa4158e92b0fb4" title="Help with the command sys_inb." alt="" coords="121,56,212,83"/>
+</map>

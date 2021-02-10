@@ -1,0 +1,11 @@
+var searchData=
+[
+  ['n_146',['N',['../i8042_8h.html#a0240ac851181b84ac374872dc5434ee4',1,'i8042.h']]],
+  ['n_5frecord_147',['n_record',['../sprite_8c.html#a98e7e8e3671ccfdd289bb5d171acd68e',1,'n_record():&#160;sprite.c'],['../while__game_8c.html#a98e7e8e3671ccfdd289bb5d171acd68e',1,'n_record():&#160;sprite.c']]],
+  ['name_148',['name',['../struct_user.html#aa074d73d38478bc4b789c561d775b6a5',1,'User']]],
+  ['new_5fmouse_5fpos_149',['new_mouse_pos',['../group__sprite.html#gafdccb52de24e7bdf111da0a9a0905bb4',1,'new_mouse_pos(Sprite *cursor, Sprite *meteor):&#160;sprite.c'],['../group__sprite.html#gafdccb52de24e7bdf111da0a9a0905bb4',1,'new_mouse_pos(Sprite *cursor, Sprite *meteor):&#160;sprite.c']]],
+  ['new_5frecord_150',['new_record',['../group__sprite.html#gabc3170847fc0c1afdf4a260b64023141',1,'new_record(int sc):&#160;sprite.c'],['../group__sprite.html#gabc3170847fc0c1afdf4a260b64023141',1,'new_record(int sc):&#160;sprite.c']]],
+  ['nick_151',['nick',['../sprite_8c.html#a70583bcf8a45e135059dd231c41f91d1',1,'sprite.c']]],
+  ['nick_5fcomplete_152',['nick_complete',['../sprite_8c.html#aa4df5819d78bde00f303a0d0c0fac1c4',1,'nick_complete():&#160;sprite.c'],['../while__game_8c.html#aa4df5819d78bde00f303a0d0c0fac1c4',1,'nick_complete():&#160;sprite.c']]],
+  ['nickname_153',['nickname',['../group__sprite.html#ga8f4deba87b89a818005d02144e426380',1,'nickname(Sprite *a, Sprite *b, Sprite *c, Sprite *d, Sprite *e, Sprite *f, Sprite *g, Sprite *h, Sprite *i, Sprite *j, Sprite *k, Sprite *l, Sprite *m, Sprite *n, Sprite *o, Sprite *p, Sprite *q, Sprite *r, Sprite *s, Sprite *t, Sprite *u, Sprite *v, Sprite *w, Sprite *x, Sprite *y, Sprite *z, Sprite *zero, Sprite *one, Sprite *two, Sprite *three, Sprite *four, Sprite *five, Sprite *six, Sprite *seven, Sprite *eight, Sprite *nine):&#160;sprite.c'],['../group__sprite.html#ga8f4deba87b89a818005d02144e426380',1,'nickname(Sprite *a, Sprite *b, Sprite *c, Sprite *d, Sprite *e, Sprite *f, Sprite *g, Sprite *h, Sprite *i, Sprite *j, Sprite *k, Sprite *l, Sprite *m, Sprite *n, Sprite *o, Sprite *p, Sprite *q, Sprite *r, Sprite *s, Sprite *t, Sprite *u, Sprite *v, Sprite *w, Sprite *x, Sprite *y, Sprite *z, Sprite *zero, Sprite *one, Sprite *two, Sprite *three, Sprite *four, Sprite *five, Sprite *six, Sprite *seven, Sprite *eight, Sprite *nine):&#160;sprite.c']]]
+];

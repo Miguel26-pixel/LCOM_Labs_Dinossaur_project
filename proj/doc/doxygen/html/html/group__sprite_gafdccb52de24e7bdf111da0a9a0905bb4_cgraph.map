@@ -1,0 +1,7 @@
+<map id="new_mouse_pos" name="new_mouse_pos">
+<area shape="rect" id="node1" title="Check and update new mouse position." alt="" coords="5,81,124,108"/>
+<area shape="rect" id="node2" href="$group__graphics.html#ga7ae3806d91a84843a13fb95bae434127" title="Return horizontal resolution." alt="" coords="172,5,231,32"/>
+<area shape="rect" id="node3" href="$group__graphics.html#ga66b01bc7abf44a774b3aefb4e8ade906" title="Return vertical resolution." alt="" coords="172,56,231,83"/>
+<area shape="rect" id="node4" href="$group__utils.html#ga2f72f31bf325f0df4de4c83205568509" title="Return maximum between 2 values." alt="" coords="178,107,225,133"/>
+<area shape="rect" id="node5" href="$group__utils.html#gaebfa23dbf6ec30f35f2986a654bd47c1" title="Return minimum between 2 values." alt="" coords="180,157,223,184"/>
+</map>

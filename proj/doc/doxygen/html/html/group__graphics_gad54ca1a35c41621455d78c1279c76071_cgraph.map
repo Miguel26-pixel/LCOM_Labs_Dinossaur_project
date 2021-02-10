@@ -1,0 +1,5 @@
+<map id="collision" name="collision">
+<area shape="rect" id="node1" title="Check the collision between dinossaur and and pixmap." alt="" coords="5,31,75,57"/>
+<area shape="rect" id="node2" href="$group__graphics.html#ga7ae3806d91a84843a13fb95bae434127" title="Return horizontal resolution." alt="" coords="123,5,181,32"/>
+<area shape="rect" id="node3" href="$group__utils.html#gaebfa23dbf6ec30f35f2986a654bd47c1" title="Return minimum between 2 values." alt="" coords="131,56,173,83"/>
+</map>

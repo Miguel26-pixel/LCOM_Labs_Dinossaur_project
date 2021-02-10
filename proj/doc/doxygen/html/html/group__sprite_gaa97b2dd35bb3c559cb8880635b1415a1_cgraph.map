@@ -1,0 +1,9 @@
+<map id="switch_leg" name="switch_leg">
+<area shape="rect" id="node1" title="Draw the dinossaur with leg changes." alt="" coords="5,56,88,83"/>
+<area shape="rect" id="node2" href="$group__graphics.html#gad54ca1a35c41621455d78c1279c76071" title="Check the collision between dinossaur and and pixmap." alt="" coords="167,5,236,32"/>
+<area shape="rect" id="node5" href="$group__sprite.html#gabc3170847fc0c1afdf4a260b64023141" title="Check if is the new high score." alt="" coords="157,107,245,133"/>
+<area shape="rect" id="node6" href="$group__graphics.html#ga936533e02b44af096cc6ba78b877956b" title="Draw a pixmap without the the background." alt="" coords="136,56,267,83"/>
+<area shape="rect" id="node3" href="$group__graphics.html#ga7ae3806d91a84843a13fb95bae434127" title="Return horizontal resolution." alt="" coords="315,56,373,83"/>
+<area shape="rect" id="node4" href="$group__utils.html#gaebfa23dbf6ec30f35f2986a654bd47c1" title="Return minimum between 2 values." alt="" coords="323,5,365,32"/>
+<area shape="rect" id="node7" href="$group__graphics.html#ga66b01bc7abf44a774b3aefb4e8ade906" title="Return vertical resolution." alt="" coords="315,107,373,133"/>
+</map>

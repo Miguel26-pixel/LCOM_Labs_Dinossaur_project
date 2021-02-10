@@ -1,0 +1,7 @@
+<map id="setBackground" name="setBackground">
+<area shape="rect" id="node1" title="Set the background to White color." alt="" coords="5,56,115,83"/>
+<area shape="rect" id="node2" href="$group__graphics.html#ga95dacc5f0ebb3848c8e646ad28f1289d" title="Set the background with color." alt="" coords="163,5,287,32"/>
+<area shape="rect" id="node3" href="$group__graphics.html#ga7ae3806d91a84843a13fb95bae434127" title="Return horizontal resolution." alt="" coords="195,56,254,83"/>
+<area shape="rect" id="node4" href="$group__graphics.html#ga5e5b25bd525250f61f40b9e9f212d5e6" title="Draw an horizontal line." alt="" coords="173,107,276,133"/>
+<area shape="rect" id="node5" href="$group__utils.html#gaebfa23dbf6ec30f35f2986a654bd47c1" title="Return minimum between 2 values." alt="" coords="335,107,377,133"/>
+</map>

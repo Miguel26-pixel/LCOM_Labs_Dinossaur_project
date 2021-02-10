@@ -1,0 +1,7 @@
+<map id="obstacles_spawn" name="obstacles_spawn">
+<area shape="rect" id="node1" title="Creates a new obstacle." alt="" coords="5,56,128,83"/>
+<area shape="rect" id="node2" href="$group__graphics.html#ga936533e02b44af096cc6ba78b877956b" title="Draw a pixmap without the the background." alt="" coords="176,56,307,83"/>
+<area shape="rect" id="node3" href="$group__graphics.html#ga7ae3806d91a84843a13fb95bae434127" title="Return horizontal resolution." alt="" coords="355,5,413,32"/>
+<area shape="rect" id="node4" href="$group__graphics.html#ga66b01bc7abf44a774b3aefb4e8ade906" title="Return vertical resolution." alt="" coords="355,56,413,83"/>
+<area shape="rect" id="node5" href="$group__utils.html#gaebfa23dbf6ec30f35f2986a654bd47c1" title="Return minimum between 2 values." alt="" coords="363,107,405,133"/>
+</map>

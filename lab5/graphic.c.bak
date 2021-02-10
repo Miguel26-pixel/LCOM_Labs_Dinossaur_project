@@ -1,0 +1,128 @@
+#include "graphic.h"
+#include "utils.h"
+#include "i8042.h"
+
+static void *video_mem = 0;
+static vbe_mode_info_t mode_info;
+
+extern uint8_t scancode;
+
+void mem_mapping(uint16_t mode){
+	int r = 0;
+	static struct minix_mem_range mem;
+	memset(&mode_info, 0, sizeof(mode_info));
+
+	if(vbe_get_mode_info(mode, &mode_info)!=0)
+	{
+		printf("Failed to get vbe info\n");
+	}
+
+	uint16_t Xresolution = mode_info.XResolution;
+	uint16_t Yresolution = mode_info.YResolution;
+	uint16_t bitspp= mode_info.BytesPerScanLine/mode_info.XResolution;
+
+	unsigned int vram_base= mode_info.PhysBasePtr; 
+	unsigned int vram_size= Xresolution * Yresolution * bitspp;
+
+	mem.mr_base = (phys_bytes) vram_base;
+	mem.mr_limit = mem.mr_base + vram_size;
+
+	if( OK != (r = sys_privctl(SELF, SYS_PRIV_ADD_MEM, &mem)))
+		panic("sys_privctl (ADD_MEM) failed: %d\n", r);
+
+	video_mem = vm_map_phys(SELF, (void *)mem.mr_base,vram_size);
+
+	if(video_mem == MAP_FAILED)
+		panic("couldn't map video memory");
+
+}
+
+void *(vg_init)(uint16_t mode){
+	/* Specify the appropriate register values */
+  struct reg86 r86;
+
+	memset(&r86, 0, sizeof(r86));	/* zero the structure */
+		
+	r86.intno = 0x10; /* BIOS video services */
+	r86.ah = 0x4F;
+  r86.al = 0x02; // VBE call, function 02 -- set VBE mode
+	r86.bx = mode | BIT(14);
+  
+	/* Make the BIOS call */
+	
+	if( sys_int86(&r86) != OK ) {
+		printf("\tvg_exit(): sys_int86() failed \n");
+	}
+  return video_mem;
+}
+
+
+int (vg_draw_pixel)(uint16_t x , uint16_t y , uint32_t color){
+  uint8_t cl = (uint8_t) color;
+  //uint32_t pos = (y * mode_info.XResolution + x)*(mode_info.BytesPerScanLine/mode_info.XResolution);
+  uint8_t* mem = (uint8_t*) video_mem + (mode_info.BytesPerScanLine/mode_info.XResolution) * (x + y * mode_info.XResolution);
+  //uint8_t *ptr = ((uint8_t*) video_mem) + pos;
+  *mem = cl;
+  //memcpy(ptr, &cl, mode_info.BytesPerScanLine/mode_info.XResolution);
+  return 0;
+}
+
+int (vg_draw_hline)(uint16_t x,uint16_t y,uint16_t len,uint32_t color){
+  uint16_t x_max = min(mode_info.XResolution,x+len);
+  for (uint16_t i=x;i<x_max;i++){
+    vg_draw_pixel(i,y,color);
+  }
+  return 0;
+}
+
+int (vg_draw_rectangle)(	uint16_t 	x,uint16_t 	y,uint16_t 	width,uint16_t 	height,uint32_t color){
+  uint16_t y_max = min(mode_info.YResolution,y+height);
+  for (uint16_t i = y;i<y_max;i++){
+    vg_draw_hline(x, i, width, color);
+  }
+  return 0;
+}
+
+void *(vbe_get_video_mem)(){
+  return video_mem;
+}
+
+int esc_exit(){
+  int ipc_status;
+  message msg;
+  uint8_t kbc_bit_no = 1;
+  kbc_subscribe_int(&kbc_bit_no);
+  do {                                                            //the input to stop is the esc key
+        int r;
+        if ( (r = driver_receive(ANY, &msg, &ipc_status)) != 0 ) { 
+            printf("driver_receive failed with: %d", r);
+            continue;
+        }
+
+        if (is_ipc_notify(ipc_status)) {                            /* received notification */
+            switch (_ENDPOINT_P(msg.m_source)) {
+                case HARDWARE:                                      /* hardware interrupt notification */				
+                    if (msg.m_notify.interrupts & kbc_bit_no) {    /* subscribed interrupt */
+                      uint8_t status = 0;
+
+                      util_sys_inb(STATUS_PORT, &status);
+
+                      if (status & 0x01) {
+                        util_sys_inb(KBD_OUT_BUF, &scancode);
+                        printf("%d",scancode);
+                        if((status & 0xC0) != 0)
+                          break;
+                                            
+                      }  
+                    }
+                    break;
+                default:
+                    break;                                          /* no other notifications expected: do nothing */	
+            }
+        } 
+    }    
+    while(scancode != 0x81); 
+    kbc_unsubscribe_int();
+    return 0;
+}
+
