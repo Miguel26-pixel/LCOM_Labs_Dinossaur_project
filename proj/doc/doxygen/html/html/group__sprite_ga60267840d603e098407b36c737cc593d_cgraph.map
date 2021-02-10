@@ -1,7 +1,0 @@
-<map id="score" name="score">
-<area shape="rect" id="node1" title="Draw the score." alt="" coords="5,31,60,57"/>
-<area shape="rect" id="node2" href="$group__graphics.html#ga7ae3806d91a84843a13fb95bae434127" title="Return horizontal resolution." alt="" coords="287,5,345,32"/>
-<area shape="rect" id="node3" href="$group__graphics.html#ga936533e02b44af096cc6ba78b877956b" title="Draw a pixmap without the the background." alt="" coords="108,56,239,83"/>
-<area shape="rect" id="node4" href="$group__graphics.html#ga66b01bc7abf44a774b3aefb4e8ade906" title="Return vertical resolution." alt="" coords="287,56,345,83"/>
-<area shape="rect" id="node5" href="$group__utils.html#gaebfa23dbf6ec30f35f2986a654bd47c1" title="Return minimum between 2 values." alt="" coords="295,107,337,133"/>
-</map>

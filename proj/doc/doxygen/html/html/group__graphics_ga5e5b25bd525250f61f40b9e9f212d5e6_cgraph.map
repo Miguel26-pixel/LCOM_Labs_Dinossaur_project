@@ -1,4 +1,0 @@
-<map id="vg_draw_hline" name="vg_draw_hline">
-<area shape="rect" id="node1" title="Draw an horizontal line." alt="" coords="5,5,108,32"/>
-<area shape="rect" id="node2" href="$group__utils.html#gaebfa23dbf6ec30f35f2986a654bd47c1" title="Return minimum between 2 values." alt="" coords="156,5,199,32"/>
-</map>

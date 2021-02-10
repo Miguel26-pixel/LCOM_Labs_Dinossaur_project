@@ -1,7 +1,0 @@
-<map id="write_int_on_screen" name="write_int_on_screen">
-<area shape="rect" id="node1" title="Write text on screen." alt="" coords="5,56,143,83"/>
-<area shape="rect" id="node2" href="$group__graphics.html#ga936533e02b44af096cc6ba78b877956b" title="Draw a pixmap without the the background." alt="" coords="191,56,321,83"/>
-<area shape="rect" id="node3" href="$group__graphics.html#ga7ae3806d91a84843a13fb95bae434127" title="Return horizontal resolution." alt="" coords="369,5,428,32"/>
-<area shape="rect" id="node4" href="$group__graphics.html#ga66b01bc7abf44a774b3aefb4e8ade906" title="Return vertical resolution." alt="" coords="369,56,428,83"/>
-<area shape="rect" id="node5" href="$group__utils.html#gaebfa23dbf6ec30f35f2986a654bd47c1" title="Return minimum between 2 values." alt="" coords="377,107,420,133"/>
-</map>

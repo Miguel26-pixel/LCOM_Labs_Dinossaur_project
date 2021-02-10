@@ -1,5 +1,0 @@
-<map id="mouse_ih" name="mouse_ih">
-<area shape="rect" id="node1" title="Mouse Interrupt Handler." alt="" coords="5,31,84,57"/>
-<area shape="rect" id="node2" href="$group__mouse.html#gac4d71b2b0a3465d55247e290ccb7cec2" title="Read the data coming from Keyboard Controller." alt="" coords="132,5,257,32"/>
-<area shape="rect" id="node3" href="$group__utils.html#ga79a031a8611f5b2d6afa4158e92b0fb4" title="Help with the command sys_inb." alt="" coords="149,56,240,83"/>
-</map>
